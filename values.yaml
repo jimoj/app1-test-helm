@@ -1,0 +1,11 @@
+replicaCount: 1
+image:
+  repository: "public.ecr.aws/ubuntu/nginx:1.26-24.10_edge"
+  tag: "latest"
+service:
+  type: ClusterIP
+  port: 80
+ingress:
+  enabled: false
+  host: app1.example.com
+  path: /
