@@ -5,7 +5,7 @@ image:
 service:
   type: NodePort
   port: 80
-  nodePort: 30080
+  nodePort: 30036
 ingress:
   enabled: false
   host: app1.example.com
