@@ -8,4 +8,4 @@ service:
 ingress:
   enabled: false
   host: app1.example.com
-  path: /
+  path: .
